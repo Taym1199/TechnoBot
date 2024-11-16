@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechnoBot - Accueil</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.png.webp">
+    <link rel="stylesheet" href="style.css"> 
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></head>
+<body>
+    <header>
+        <nav>
+          <div class="logoo">
+            <img src="logo.png.webp" alt="logo-site">
+            <h1><a href="index.html">TechnoBot</a></h1>
+          </div>
+            <ul class="nav-bar">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="history.html">Histoire</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="apprendre.html">Apprendre</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section style="text-align: center;">
+        <h2>Nous Contacter</h2>
+        <p>Si vous avez des questions, des suggestions ou si vous voulez en savoir plus sur la robotique, n'hésitez pas à nous écrire !</p>
+    </section>
+
+    <form style=" margin: 100px 200px;">
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">Prénom</label>
+            <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Mark" required>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault02">Nom</label>
+            <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Otto" required>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefaultUsername">Adresse mail</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+              </div>
+              <input type="email" class="form-control" id="validationDefaultUsername" placeholder="Adresse mail" aria-describedby="inputGroupPrepend2" required>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationDefault03">Numérau de téléphone</label>
+            <input type="text" class="form-control" id="validationDefault03" placeholder="Numéro de téléphone" required>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationDefault04">Mot de passe</label>
+            <input type="password" class="form-control" id="validationDefault04" placeholder="Mot de passe" required>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationDefault05">Message</label>
+            <textarea class="form-control" id="validationDefault05" placeholder="Message" required></textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+              Agree to terms and conditions
+            </label>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </form>
+
+    <footer>
+        <p>&copy; 2024 TechnoBot - Tous droits résérvés</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
